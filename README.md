@@ -1,7 +1,9 @@
 Awesome Amaranth
 ----------------
 
-A curated list of awesome projects using or building on the [Amaranth project](https://github.com/amaranth-lang/amaranth).
+A curated list of awesome projects using or building on the [Amaranth project](https://github.com/amaranth-lang/amaranth). 
+
+Originally created by [@robtaylor](https://github.com/robtaylor). Maintained since November 2026 at [OnyxRTL/amaranth-awesome](https://github.com/OnyxRTL/amaranth-awesome).
 
 Please submit a PR if you have any suggestions!
 
@@ -27,25 +29,23 @@ Active Projects
  - [amaranth-orchard](https://github.com/ChipFlow/amaranth-orchard): Existing open source cores combined with wrappers and glue to enable Amaranth support.
  - [amaranth-stubs](https://github.com/kuznia-rdzeni/amaranth-stubs): Type stubs for Amaranth
  - [hexastorm](https://github.com/hstarmans/hexastorm): Hexastorm is a full toolkit for working with polygon lasers scanners using FPGA technology; and provides hardware, gateware, and software to enable laser scanning applications.
- - [ili9341spi](https://github.com/kivikakk/ili9341spi): Driver for ILI9341 LCD display. Proving ground for [niar](https://github.com/kivikakk/niar).
+ - [ili9341spi](https://github.com/kivikakk/ili9341spi): Driver for ILI9341 LCD display. Proving ground for [niar](https://github.com/charlottia/niar).
  - [learn-fpga-amaranth](https://github.com/bl0x/learn-fpga-amaranth): This repository contains code to follow the excellent learn-fpga tutorial by Bruno Levy from blinker to RISC-V using Amaranth HDL
  - [mtkCPU](https://github.com/bieganski/mtkcpu): mtkCPU is a simple, clear, hackable and very inefficient implementation of RiscV ISA in Amaranth HDL.
- - [niar](https://github.com/kivikakk/niar): A small framework for building projects with Amaranth. Provides support for using CXXRTL, optionally with Zig and zxxrtl.
- - [pytest-amaranth-sim](https://github.com/cr1901/pytest-amaranth-sim): Fixture to automate running Amaranth simulations.
+ - [niar](https://github.com/charlottia/niar): A small framework for building projects with Amaranth. Provides support for using CXXRTL, optionally with Zig and zxxrtl.
+ - [pytest-amaranth-sim](https://github.com/cr1901/pytest-amaranth-sim): A pytest plugin to automate running Amaranth simulations with easy setup and VCD generation.
  - [sae](https://github.com/kivikakk/sae): RV32I softcore
  - [sentinel](https://github.com/cr1901/sentinel): Sentinel is a small RISC-V CPU (RV32I_Zicsr) written in Amaranth. It implements the Machine Mode privileged spec, and is designed to fit into ~1000 4-input LUTs or less on an FPGA.
  - [smolarith](https://github.com/cr1901/smolarith): Small arithmetic soft-cores for smol FPGAs.
- - [maia-sdr](https://github.com/maia-sdr/maia-sdr) Maia SDR is an open-source FPGA-based SDR project focusing on the ADALM Pluto. It uses Amaranth-HDL for many DSP Blocks
+ - [maia-sdr](https://github.com/maia-sdr/maia-sdr): Maia SDR is an open-source FPGA-based SDR project focusing on the ADALM Pluto. It uses Amaranth-HDL for many DSP Blocks
  - [ROOM](https://github.com/Jimx-/ROOM): 10-stage out-of-order RV64IMFDC CPU
  - [amaranth-examples](https://github.com/cyber-murmel/amaranth-examples): Examples for the Amaranth hardware definition language, enabling the simulation and synthesis of digital circuits using Python.
  - [EMBR RV32](https://github.com/eigenform/ember): A computer architecture project focusing on the RV32 instruction set.
  - [hapenny](https://github.com/cbiffle/hapenny): A half-width RISC-V CPU implementation designed to evaluate the Amaranth HDL, operating internally on 16-bit chunks while executing the RV32I instruction set.
  - [Manta](https://github.com/fischermoseley/manta): A configurable and approachable tool for FPGA debugging and rapid prototyping that facilitates communication between FPGAs and host machines.
  - [naps](https://github.com/apertus-open-source-cinema/naps): Building blocks and tools for FPGA design with Python and Amaranth HDL, including prototypes, stream abstractions, various cores, SOC tools, and experimental projects.
- - [Niar](https://github.com/charlottia/niar): A small framework for building projects with Amaranth and supporting CXXRTL, Zig, and zxxrtl.
  - [patina](https://github.com/zignig/patina): A minimal Rust framework for RISC-V FPGA control plane development.
- - [pytest-amaranth-sim](https://github.com/cr1901/pytest-amaranth-sim): A pytest plugin to automate running Amaranth simulations with easy setup and VCD generation.
- - [Cynthion](https://github.com/antoinevg/cynthion): An all-in-one tool for building, testing, and experimenting with USB devices using a customizable FPGA-based architecture.
+ - [Cynthion](https://github.com/greatscottgadgets/cynthion): An all-in-one tool for building, testing, and experimenting with USB devices using a customizable FPGA-based architecture.
 
 Companies using Amaranth
 ========================
@@ -67,3 +67,4 @@ Projects that have seen no updates for >6 months. There have been many changes i
  - https://github.com/weshu/Amaranth_LFSR - a re-write of Alexforencich's verilog-lfsr, with Amaranth HDL.
    (Note: there is now a RFC to add and LFSR generator to Amaranth core)  https://github.com/amaranth-lang/rfcs/pull/72)
  - https://github.com/sporniket/amaranth-stuff Amaranth stuff by Sporniket is my collection of essential code written using the Amaranth hdl.
+ - https://github.com/satellogic/nmigen-zynq - Platform and primitive wrappers for AMD Zynq and Zynq UltraScale PS (AXI, clocks, IRQ, reset). Source-only (no PyPI release); last updated 2020. Does not import against Amaranth 0.5.10 (`amaranth.vendor.xilinx` no longer exists).
