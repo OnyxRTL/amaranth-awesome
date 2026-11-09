@@ -45,7 +45,6 @@ Active Projects
  - [Manta](https://github.com/fischermoseley/manta): A configurable and approachable tool for FPGA debugging and rapid prototyping that facilitates communication between FPGAs and host machines.
  - [naps](https://github.com/apertus-open-source-cinema/naps): Building blocks and tools for FPGA design with Python and Amaranth HDL, including prototypes, stream abstractions, various cores, SOC tools, and experimental projects.
  - [patina](https://github.com/zignig/patina): A minimal Rust framework for RISC-V FPGA control plane development.
- - [maia-sdr](https://github.com/maia-sdr/maia-sdr) Maia SDR is an open-source FPGA-based SDR project focusing on the ADALM Pluto. It uses Amaranth-HDL for many DSP Blocks.
  - [Cynthion](https://github.com/greatscottgadgets/cynthion): An all-in-one tool for building, testing, and experimenting with USB devices using a customizable FPGA-based architecture.
 
 Companies using Amaranth
